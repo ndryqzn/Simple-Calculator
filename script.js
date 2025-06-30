@@ -78,5 +78,5 @@ buttons.forEach(button => {
 
 function mazeYou() {
   output.innerHTML = 'I Miss You, Baby :<';
-  output.style.fontSize = '50px';
+  output.style.fontSize = '30px';
 }
