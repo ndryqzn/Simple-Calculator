@@ -10,37 +10,37 @@
 <body>
     <main>
         <div class="output">
-            <p id="output">1233445</p>
+            <p id="output"></p>
         </div>
         <article>
             <div class="row">
-                <button id="clear" class="btns silver">C</button>
-                <button id="posOrneg" class="btns silver">+/-</button>
-                <button id="percent" class="btns silver">%</button>
-                <button id="divide" class="btns operator">÷</button>
+                <button onclick="clearDisplay()" class="btns silver">C</button>
+                <button onclick="changeSign()" class="btns silver">+/-</button>
+                <button onclick="calculatePercent()" class="btns silver">%</button>
+                <button onclick="display('÷')" class="btns operator">÷</button>
             </div>
             <div class="row">
-                <button id="seven" class="btns">7</button>
-                <button id="eight" class="btns">8</button>
-                <button id="nine" class="btns">9</button>
-                <button id="multiply" class="btns operator">×</button>
+                <button onclick="display('7')" class="btns">7</button>
+                <button onclick="display('8')" class="btns">8</button>
+                <button onclick="display('9')" class="btns">9</button>
+                <button onclick="display('×')" class="btns operator">×</button>
             </div>
             <div class="row">
-                <button id="four" class="btns">4</button>
-                <button id="five" class="btns">5</button>
-                <button id="six" class="btns">6</button>
-                <button id="minus" class="btns operator">-</button>
+                <button onclick="display('4')" class="btns">4</button>
+                <button onclick="display('5')" class="btns">5</button>
+                <button onclick="display('6')" class="btns">6</button>
+                <button onclick="display('-')" class="btns operator">-</button>
             </div>
             <div class="row">
-                <button id="one" class="btns">1</button>
-                <button id="two" class="btns">2</button>
-                <button id="three" class="btns">3</button>
-                <button id="add" class="btns operator">+</button>
+                <button onclick="display('1')" class="btns">1</button>
+                <button onclick="display('2')" class="btns">2</button>
+                <button onclick="display('3')" class="btns">3</button>
+                <button onclick="display('+')" class="btns operator">+</button>
             </div>
             <div class="row last">
-                <button id="zero" class="btns zero">0</button>
-                <button id="point" class="btns">.</button>
-                <button id="equal" class="btns operator">=</button>
+                <button onclick="display('0')" class="btns zero">0</button>
+                <button onclick="display('.')" class="btns">.</button>
+                <button onclick="calculate()" class="btns operator">=</button>
             </div>
         </article>
     </main>
