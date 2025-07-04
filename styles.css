@@ -94,6 +94,12 @@ article{
     background-color: #9c9c9c;
     color: rgb(29, 29, 29);
 }
+.btns.silver svg{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 40px;
+}
 .row.last{
     grid-template-columns: 2fr 1fr 1fr;
 }
